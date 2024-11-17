@@ -629,18 +629,17 @@ footer p{
 
     .social-media{
         display: flex;
-        top: 83%;
-        left: 50%;
-        right: 0%;
+        position: unset;
+        margin-top:8em;
+        margin-left: 50vw;
+        z-index: 5000;
     }
     .social-media img{
         margin-left: 1em;
     }
     .resume{
-        position: absolute;
-        top: 32%;
-        left: 3.90%;
-        right: 0%;
+        position: unset;
+        margin-top:-4em;
         font-size: 0.9em;
     }
 
