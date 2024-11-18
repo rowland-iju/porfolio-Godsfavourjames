@@ -682,8 +682,10 @@ footer p{
         font-size: 0.7em;
 
     }
-
-}
+    .bg-hero h2{
+        font-size:1.18em;
+    }
+        
 
 
 /* ANIMATION */
