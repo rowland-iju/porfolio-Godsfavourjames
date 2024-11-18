@@ -676,11 +676,13 @@ footer p{
         margin-top:2.2em;
         margin-left: 25vw;
         z-index: 5000;
+        animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
     }
     .resume{
         margin-top:-4em;
         font-size: 0.9em;
         justify-content:center;
+        animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
     }
     .bg-hero h2{
         font-size:1.85em;
