@@ -673,17 +673,17 @@ footer p{
 @media (max-width: 488px){
     .social-media{
         display: flex;
-        margin-top:3.2em;
+        margin-top:3.5em;
         margin-left: 25vw;
         width: 1.5rem;
-        z-index: 5;
+        z-index: 1000;
         animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
     }
     .resume{
         margin-top:-4em;
-        font-size: 1.1em;
+/*         font-size: 1.2em; */
         justify-content:center;
-        z-index: 5;
+        z-index: 1000;
         animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
     }
     .bg-hero h2{
