@@ -675,36 +675,49 @@ footer p{
     .social-media{
         display: flex;
         position: absolute;
-        top: 65%;
+        top: 66%;
         left: -23%;
         right:0;
         /* margin-top:2em;
         margin-left: 25vw; */
-        width: 2rem;
-        z-index: 1000;
+        /* z-index: 1000; */
         animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
+    }
+    .social-media img{
+        width: 2.1em;
     }
     .resume{
         position: absolute;
         top: 85%;
-        left: 20%;
+        left: 25%;
         right: auto;
-        font-size: 1.2em;
-        padding: 0.5em 1.5em ;
+        font-size: 1em;
         /* margin-top:-4em; */
 /*         font-size: 1.2em; */
         justify-content:center;
-        z-index: 1000;
+        /* z-index: 1; */
         animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
+    }
+    .resume-button{
+        padding: 0.7em 2.5em;
+        z-index: 1;
+    }
+    .resume-button:hover {
+        border-top:dotted 2px #0056b3;
+        border-right:dotted 2px #0056b3;
+        transition: all 1s;
     }
     .bg-hero h2{
         font-size:2em;
     }
-     .bg-hero{
+     /* .bg-hero{
         z-index: -2; 
      }
     .bg-hero::before{
        z-index: -1;
+    } */
+    .bg-hero .cta-button:hover {
+        background-color: #0056b3;
     }
     
 }
