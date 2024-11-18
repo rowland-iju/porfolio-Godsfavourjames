@@ -673,7 +673,7 @@ footer p{
 @media (max-width: 488px){
     .social-media{
         display: flex;
-        margin-top:1em;
+        margin-top:2.2em;
         margin-left: 25vw;
         z-index: 5000;
     }
@@ -683,9 +683,15 @@ footer p{
         justify-content:center;
     }
     .bg-hero h2{
-        font-size:1.4em;
+        font-size:1.85em;
     }
-        
+     .bg-hero{
+        z-index: 0; 
+     }
+    .bg-hero::before{
+       z-index: 1;
+    }
+    
 
 
 /* ANIMATION */
