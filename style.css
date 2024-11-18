@@ -687,7 +687,7 @@ footer p{
         animation: fadeIn 2s ease-out forwards, slideUp 1.5s ease-out 1s forwards;
     }
     .bg-hero h2{
-        font-size:1.85em;
+        font-size:2em;
     }
      .bg-hero{
         z-index: -2; 
